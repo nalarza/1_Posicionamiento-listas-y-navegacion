@@ -1,0 +1,127 @@
+header{
+    background: #BBBBBB;/*color del encabezado*/
+    padding: 20px 0;/*espaciado interno / a los lados*/
+}
+.caja{
+    inline-size: 940px ;/*ancho a la caja que esta en el encabezado*/
+    position: relative;/*para poder mover toda la caja sin exepcion*/
+    margin: 0 auto;/*margen de la caja en los lados*/
+}
+nav{
+    position: absolute;/*para poder mover nuestro menu*/
+    inset-block-start: 110px;/*arriba cero espacio*/
+    inset-inline-end: 0px;/*derecha cero espacio*/
+}
+nav li{
+    display: inline;/*poner la lista de forma vertical*/
+    margin: 0 0 0 15px;/*un espaciado entre cada una de las opciones de nuestro menu*/
+}
+nav a{
+    text-transform: uppercase;/*LETRAS MAYUSCULAS*/
+    color: black;/*color de las letras*/
+    font-weight: bold;/*letras en negrita*/
+    font-size: 22px;/*TAMAÑO DE LETRA*/
+    text-decoration: none;/*QUITAR EL LINEADO BAJO*/
+}
+
+nav a:hover{/*hover captura el movimiento del mause*/
+    color: #c78c19;/*color cuando se pone ensima del menu inicio*/
+    text-decoration: underline;/*supbrayado en cada palabra del menu inicio*/
+    font-size: 23px;
+}
+/*CUERPO DEL HTML O MAIN*/
+.productos{
+    inline-size: 940px;/*espaciado utilizado*/
+    margin: 0 auto;/*margenes*/
+    padding: 50px;/*espacios entre productos*/
+}
+.productos li{
+   /* border-color: black;borde de cada elemento*/
+   /* border-width: 2px;*/
+   /* border-style: solid;*/
+    border: 2px solid black;/*borde de cada producto*/
+    border-radius: 10px;/*esquinas redondeadas*/
+    display: inline-block;/*poner cada item de la lista una al lado de la otra*/
+    text-align: center;/*alinear el centro*/
+    inline-size: 30%;/*cada item va a utilizar el 30% del espacio de la paguina*/
+    vertical-align: top;
+    /*background: #ccc;*/
+    margin: 0 1.5%;/*espacio entre los elementos*/
+    padding: 30px 20px;
+    box-sizing: border-box;/*se usaran pixeles ya mencionados*/
+}
+.productos li:hover{
+    border-color: #e2730a;
+}
+.productos li:active{/*cuando damos click cambia el color*/
+    border-color: green;
+}
+.productos h2{
+    font-size: 30px;/*tamaño de la letra*/
+    font-weight: bold;
+}
+.productos li:hover h2{/*afectamos el h2 directamente para hcer el efecto de agrandamiento de las letras*/
+    font-size: 33px;
+}
+.productos-descripcion{
+    font-size: 18px;/*tamaño de letra*/
+}
+.productos-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-block-start: 10px;/*espacio hacia arriba*/
+}
+/*PIE DE PAGINA*/
+footer{
+    text-align: center;
+    /*background-color: black;*/
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copy{
+    color: white;
+    font-style: italic;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/*_______ CONTACTO_______*/
+
+main{
+    inline-size: 940px; /*una buena parctica comenzar diciendo la caja en donde vamos a trebajar*/
+    margin: 0 auto;/*los margenes de los elementos para que se centren en la pantalla*/
+}
+form{
+    margin: 40px 0;
+}
+form label,form legend{
+    display: 	block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    inline-size: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    inline-size: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2) ;
+}
+   

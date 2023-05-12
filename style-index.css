@@ -1,0 +1,76 @@
+.tituloPrincipal{
+    padding-inline-start: 30px;
+    color: blue;
+}
+
+body{
+    background: white;
+}
+
+h2{
+    text-align: center;
+    color: rgba(93, 93, 231, 0.966);
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+    padding: 15px;
+}
+#mision strong{
+    font-style: italic;
+}
+
+#banner{
+    inline-size: 100%;
+}
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+.principal h2{
+    font-size: 20px;
+    padding-block-end: 10px;
+}
+.diferenciales{
+    background: white; 
+    padding: 30px;   
+}
+h3{
+    text-align: center;
+    color:rgba(93, 93, 231, 0.966);
+    padding: 10px;
+    font-size: 20px;
+}
+.items{
+    font-style: italic;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    inline-size: 20%;
+    margin-inline-end: 15%;
+}
+.imgDiferencial{
+    inline-size: 30%;
+}
+/*PIE DE PAGINA*/
+footer{
+    text-align: center;
+    /*background-color: black;*/
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copy{
+    color: white;
+    font-style: italic;
+    font-size: 13px;
+    margin: 20px;
+}
