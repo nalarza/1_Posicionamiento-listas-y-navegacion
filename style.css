@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     background: #BBBBBB;/*color del encabezado*/
     padding: 20px 0;/*espaciado interno / a los lados*/
@@ -136,5 +139,41 @@ thead{
 td, th{
     border: 1px solid black;
     padding:8px 15px;
+}
+
+/*CSS PARA NUESTRA PAGINA HOME_________________________________________________________________________________-*/
+.banner{
+    inline-size: 100%;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.utensilios{
+    inline-size: 120px;
+    float:left ;
+    margin:0 20px 20px 0;
+}
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.imgDiferencial{
+    inline-size: 60%;
 }
    
