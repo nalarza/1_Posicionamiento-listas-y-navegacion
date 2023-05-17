@@ -90,10 +90,6 @@ footer{
 
 /*_______ CONTACTO_______*/
 
-main{
-    inline-size: 940px; /*una buena parctica comenzar diciendo la caja en donde vamos a trebajar*/
-    margin: 0 auto;/*los margenes de los elementos para que se centren en la pantalla*/
-}
 form{
     margin: 40px 0;
 }
@@ -141,9 +137,16 @@ td, th{
     padding:8px 15px;
 }
 
-/*CSS PARA NUESTRA PAGINA HOME_________________________________________________________________________________-*/
+/*CSS PARA NUESTRA PAGINA HOME____________________________________________________________________________-*/
 .banner{
     inline-size: 100%;
+}
+
+.principal{
+    padding: 3m 0;
+    background: #fefefe;
+    inline-size: 940px; /*una buena parctica comenzar diciendo la caja en donde vamos a trabajar*/
+    margin: 0 auto;/*los margenes de los elementos para que se centren en la pantalla*/
 }
 .titulo-principal{
     text-align: center;
@@ -151,6 +154,7 @@ td, th{
     margin: 0 0 1em;
     clear: left;
 }
+
 .principal p{
     margin: 0 0 1em;
 }
@@ -168,12 +172,48 @@ td, th{
 }
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
 }
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
 }
+.mapa-contenido{
+    inline-size: 940px;
+    margin: 0 auto;
+}
+.diferenciales{
+    padding: 3em 0;
+    background:linear-gradient(#888888,#555555,black) ;
+}
+.contenido-diferenciales{
+    inline-size: 640px;
+    margin: 0 auto;
+}
+.lista-diferenciales{
+    inline-size:40% ;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.items{
+    line-height: 1.5;
+}
+.items::before{
+    content: "🟊";
+}
+.items:first-child{
+    font-weight: bold;
+}
 .imgDiferencial{
     inline-size: 60%;
+    box-shadow: 15px 15px 30px 15px #000000;/*sobra a la imagen (derecha, abajo,difuminidad,espancion,color)*/
 }
-   
+.imgDiferencial:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.video{
+    inline-size: 560px;
+    margin: 1em auto;
+}
