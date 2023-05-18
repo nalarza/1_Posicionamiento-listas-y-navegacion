@@ -207,7 +207,7 @@ td, th{
 }
 .imgDiferencial{
     inline-size: 60%;
-    box-shadow: 15px 15px 30px 15px #000000;/*sobra a la imagen (derecha, abajo,difuminidad,espancion,color)*/
+    box-shadow: 15px 15px 30px 15px #000000;/*sombra a la imagen (derecha, abajo,difuminidad,espancion,color)*/
 }
 .imgDiferencial:hover{
     transition: 0.5s;
@@ -217,3 +217,18 @@ td, th{
     inline-size: 560px;
     margin: 1em auto;
 }
+@media screen and (max-width: 480px) {
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imgDiferencial{
+        width: 100%;
+    }
+}
+    
